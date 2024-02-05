@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>网站建设中</title>
+  <style>
+    /* 基础样式 */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      position: relative;
+      height: 100vh;
+      background-color: #282c36;
+      color: #fff;
+      text-align: center;
+    }
+    /* 垂直居中内容 */
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    /* 加点动画 */
+    .content span {
+      animation: blink 1.5s linear infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <h1>网站建设中</h1>
+      <p>谢谢你的访问！网站还在建设中，<span><font color='red'><b>请耐心等待</b></font></span>。</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
